@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    body {
+      width: 500px;
+      font-family: Arial, sans-serif;
+    }
+    button {
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  <h1>Pinduoduo Scraper</h1>
+  <button id="scrape">Scrape Product Information</button>
+  <div id="result"></div>
+  <button id="download">Download Product Image</button>
+  <div>
+    <label for="download_path">Download Path: </label>
+    <input type="text" id="download_path" placeholder="Enter download path" />
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>
